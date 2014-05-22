@@ -1,9 +1,4 @@
 Encoding.default_external = "utf-8"
-
-if environment.nil?
-  environment = :development
-end
-
 # Require any additional compass plugins here.
 require 'bootstrap-sass'
 
@@ -38,17 +33,3 @@ enable_sourcemaps = true
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true
-
-$environment = environment
-puts environment
-
-module Sass::Script::Functions
-  def getEnvironment
-    puts $environment.to_s
-    Sass::Script::String.new($environment.to_s)
-  end
-  def getConfigFile
-    puts ($environment.to_s + '.scss')
-    Sass::Script::String.new($environment.to_s + '.scss')
-  end
-end
