@@ -1,0 +1,106 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/_base\.scss}line{font-family:\0000349}}
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\000033}}
+body > footer {
+  position: relative;
+  bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\000038}}
+#main-footer {
+  text-align: center;
+  padding: 0.9em;
+  margin-bottom: 0;
+  line-height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000313}}
+  #main-footer .block {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000320}}
+.maclogo {
+  color: #777;
+  width: 105px;
+  text-align: center;
+  position: relative;
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000328}}
+a.maclogo:hover {
+  color: #999;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000333}}
+.maclogo div {
+  display: block;
+  margin-left: 43px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000336}}
+  .maclogo div.logo {
+    background-image: url("//img.cdn.dev/ext_img/apple/icloud/icloudapplelogo.png"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000342}}
+.maclogo div.logo-brightener {
+  background-image: url("//img.cdn.dev/ext_img/apple/icloud/icloudapplelogo.png"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000345}}
+.maclogo div.logo, .maclogo div.logo-brightener {
+  top: 3px;
+  width: 19px;
+  height: 22px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000350}}
+.maclogo div.logo {
+  position: relative;
+  z-index: 12;
+  background-position: 0px -1566px;
+  background-repeat: no-repeat;
+  pointer-events: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000357}}
+.maclogo div.logo-brightener {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s;
+  cursor: pointer;
+  position: relative;
+  margin-top: -22px;
+  z-index: 13;
+  background-position: 0px -1588px;
+  background-repeat: no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000370}}
+.ie8 .maclogo div.logo-brightener:hover {
+  background-image: url("//img.cdn.dev/ext_img/apple/icloud/icloudapplelogo.png"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000373}}
+.ie8 .maclogo div.logo-brightener {
+  background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000380}}
+.maclogo div.logo-brightener:hover, .maclogo:hover div.logo-brightener {
+  opacity: 1;
+  z-index: 10; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000386}}
+.ie8 .maclogo div.logo-brightener:hover {
+  background-position: 0px -1588px;
+  background-repeat: no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000391}}
+.heroku-powered {
+  display: inline-block;
+  height: 100%;
+  color: #6763a1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\0000396}}
+.sponsor {
+  white-space: nowrap;
+  color: #777;
+  display: inline-block;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: bolder; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\00003103}}
+  .sponsor a {
+    color: #bd101f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/main000\/footer\.scss}line{font-family:\00003110}}
+  .sponsor .rslogo {
+    margin-right: 10px; }

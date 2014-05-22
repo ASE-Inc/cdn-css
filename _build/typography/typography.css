@@ -1,0 +1,502 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/_base\.scss}line{font-family:\0000349}}
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+@font-face {
+  font-family: 'CC-ICONS';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://mirrors.creativecommons.org/presskit/cc-icons.ttf") format("truetype"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000311}}
+span.cc {
+  font-family: 'CC-ICONS';
+  color: #ABB3AC; }
+
+/* GENERAL */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000318}}
+#typography {
+  margin: 0;
+  background-color: #98d530;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(1, #94d12a), color-stop(0, #9bd733));
+  background-image: -moz-radial-gradient(#9bd733, #94d12a); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000323}}
+  #typography #controls {
+    position: relative;
+    float: left;
+    opacity: 1;
+    width: 220px;
+    height: 539px;
+    overflow: hidden;
+    -webkit-transition: opacity 0.2s linear;
+    -webkit-transform: translateZ();
+    -webkit-user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000334}}
+  #typography .how {
+    position: absolute;
+    width: 800px;
+    top: 485px;
+    padding-top: 46px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000340}}
+  #typography .safari_dev_center {
+    margin-top: -26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000343}}
+  #typography #typography-main {
+    border-top: 1px rgba(255, 255, 255, 0.2) solid;
+    border-left: 1px rgba(255, 255, 255, 0.2) solid;
+    background: url("http://images.apple.com/html5/showcase/typography/images/grid-bg-pattern.png") repeat;
+    -webkit-user-select: none;
+    float: right;
+    opacity: 1;
+    width: 600px;
+    height: 400px;
+    padding: 0;
+    overflow: hidden;
+    -webkit-transition: opacity 0.2s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000356}}
+  #typography #typography-text {
+    margin: 0 0 0 2px;
+    width: 594px;
+    height: 380px;
+    padding: 124px 0px 0px 0px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 100px;
+    line-height: 150px;
+    letter-spacing: 0;
+    color: #fff;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    -webkit-appearance: none;
+    -webkit-user-select: text;
+    -webkit-touch-callout: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000376}}
+  #typography form {
+    overflow: hidden;
+    background-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000380}}
+  #typography select {
+    overflow: hidden;
+    color: #5e8e40;
+    background: url("http://images.apple.com/html5/showcase/typography/images/select-bg.png") no-repeat 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000381}}
+    #typography select option {
+      overflow: hidden;
+      background-color: transparent;
+      color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000390}}
+  #typography .horizontalSlider {
+    margin-bottom: 0.25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000392}}
+    #typography .horizontalSlider .sliderTrack {
+      width: 166px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000396}}
+  #typography #colorSlider {
+    display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\0000398}}
+    #typography #colorSlider .color_swatch {
+      display: inline-block;
+      margin-right: 4px;
+      width: 14px;
+      height: 14px;
+      overflow: hidden;
+      text-indent: -9999px;
+      border: 1px solid #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003106}}
+      #typography #colorSlider .color_swatch .color_switcher {
+        display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003109}}
+      #typography #colorSlider .color_swatch #swatch_1 {
+        background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003114}}
+  #typography #typography-text.swatch_1 {
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003117}}
+  #typography #colorSlider .color_swatch #swatch_2 {
+    background-color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003120}}
+  #typography #typography-text.swatch_2 {
+    color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003123}}
+  #typography #colorSlider .color_swatch #swatch_3 {
+    background-color: #f02d26; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003126}}
+  #typography #typography-text.swatch_3 {
+    color: #f02d26; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003129}}
+  #typography #colorSlider .color_swatch #swatch_4 {
+    background-color: #d97525; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003132}}
+  #typography #typography-text.swatch_4 {
+    color: #d97525; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003135}}
+  #typography #colorSlider .color_swatch #swatch_5 {
+    background-color: #fef206; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003138}}
+  #typography #typography-text.swatch_5 {
+    color: #fef206; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003141}}
+  #typography #colorSlider .color_swatch #swatch_6 {
+    background-color: #5d9300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003144}}
+  #typography #typography-text.swatch_6 {
+    color: #5d9300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003147}}
+  #typography #colorSlider .color_swatch #swatch_7 {
+    background-color: #041383; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003150}}
+  #typography #typography-text.swatch_7 {
+    color: #041383; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003153}}
+  #typography #colorSlider .color_swatch #swatch_8 {
+    background-color: #3d1579;
+    visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003157}}
+  #typography #typography-text.swatch_8 {
+    color: #3d1579; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003160}}
+  #typography #colorSlider .color_swatch:nth-child(8) {
+    visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003163}}
+  #typography .toggle {
+    width: 150px; }
+
+/* FORM CONTROLS */
+@media only screen and (max-device-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003171}}
+  #leadingTitle, #lineSlider {
+    display: none; } }
+/* iPhone and iPad styles. */
+@media only screen and (max-device-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003179}}
+  #typography #colorSlider {
+    display: block;
+    margin-left: 5px;
+    width: 175px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003180}}
+    #typography #colorSlider .color_swatch {
+      margin-right: 5px;
+      margin-bottom: 10px;
+      width: 30px;
+      height: 30px;
+      border-width: 2px;
+      -webkit-border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003187}}
+      #typography #colorSlider .color_swatch a {
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003192}}
+      #typography #colorSlider .color_swatch #swatch_8, #typography #colorSlider .color_swatch:nth-child(8) {
+        visibility: visible; } }
+/* PRESETS NAV */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003204}}
+#typography_nav {
+  right: 213px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003206}}
+  #typography_nav #example_label {
+    padding-top: 0;
+    margin-top: -3px;
+    position: relative;
+    width: 72px; }
+
+/* PRESET EXAMPLES */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003217}}
+#typography #presetDemos {
+  position: absolute;
+  opacity: 0;
+  margin: -31px -30px;
+  width: 900px;
+  height: 0;
+  overflow: hidden;
+  z-index: 10;
+  color: #fff;
+  -webkit-transition: opacity 0.2s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003228}}
+#typography .active1 #presetDemos, #typography .active2 #presetDemos, #typography .active3 #presetDemos, #typography .active4 #presetDemos {
+  opacity: 1;
+  height: 571px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003232}}
+#typography .active1 #controls, #typography .active2 #controls, #typography .active3 #controls, #typography .active4 #controls, #typography .active1 #typography-main, #typography .active2 #typography-main, #typography .active3 #typography-main, #typography .active4 #typography-main {
+  opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003236}}
+#typography #typography-content.active1, #typography #typography-content.active2, #typography #typography-content.active3, #typography #typography-content.active4 {
+  background: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003240}}
+#typography #presetDemos .typography-demo {
+  display: none;
+  position: relative;
+  width: 900px;
+  height: 0;
+  z-index: 2;
+  -webkit-transition: opacity 0.2s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003247}}
+  #typography #presetDemos .typography-demo.active {
+    display: block;
+    opacity: 1;
+    height: 571px;
+    -webkit-transition: opacity 0.2s linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003254}}
+#typography #typography-content #presetDemos .demo-how {
+  position: absolute;
+  bottom: 22px;
+  right: 24px;
+  width: 245px;
+  padding: 12px;
+  background-color: #98d530;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003262}}
+  #typography #typography-content #presetDemos .demo-how h4, #typography #typography-content #presetDemos .demo-how p {
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.5);
+    font: 14px / 18px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003267}}
+  #typography #typography-content #presetDemos .demo-how h4 {
+    float: left;
+    margin-right: 6px;
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003275}}
+#typography #presetDemos #presetDemo1 .demo-container {
+  position: absolute;
+  top: -267px;
+  left: -32px;
+  width: 1100px;
+  height: 1300px;
+  -webkit-transform: rotate(-45deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003283}}
+#typography #presetDemos #presetDemo1 .box {
+  float: left;
+  position: relative;
+  width: 550px;
+  height: 650px;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003290}}
+#typography #presetDemos #presetDemo1 .box-top-left {
+  text-align: right;
+  background-color: #5780cb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003294}}
+#typography #presetDemos #presetDemo1 .box-top-right {
+  margin-left: -1px;
+  width: 523px;
+  height: 650px;
+  padding-left: 27px;
+  background-color: #dad6cb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003301}}
+#typography #presetDemos #presetDemo1 .box-bottom-left {
+  margin-top: -1px;
+  background-color: #570000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003305}}
+#typography #presetDemos #presetDemo1 .box-bottom-right {
+  margin: -1px 0 0 -1px;
+  background-color: #da0000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003309}}
+#typography #presetDemos #presetDemo1 .box-top-left h2 {
+  margin: 244px -46px 0 0;
+  color: #dad6cb;
+  letter-spacing: -0.02em;
+  font: 400px / 380px "LeagueGothicRegular", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003314}}
+  #typography #presetDemos #presetDemo1 .box-top-left h2 span {
+    display: block;
+    margin-right: 47px;
+    color: #570000;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font: 40px / 24px "LeagueGothicRegular", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003324}}
+#typography #presetDemos #presetDemo1 .box-top-right p {
+  margin: 268px 0 83px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font: 21px / 28px "LeagueGothicRegular", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003331}}
+#typography #presetDemos #presetDemo1 .box-top-right h2 {
+  color: #da0000;
+  text-transform: uppercase;
+  font: 108px / 102px "LeagueGothicRegular", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003338}}
+#typography #presetDemos #presetDemo2 {
+  background: url("http://images.apple.com/html5/showcase/typography/images/skate-bg.jpg") no-repeat 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003340}}
+  #typography #presetDemos #presetDemo2 .headings {
+    padding-top: 168px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003343}}
+  #typography #presetDemos #presetDemo2 h2 {
+    display: inline-block;
+    margin: 0 0 0 137px;
+    padding: 2px 5px;
+    background-color: #9c9892;
+    color: #545050;
+    letter-spacing: 0.05em;
+    font: 32px / 30px "CaptureitRegular", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003352}}
+  #typography #presetDemos #presetDemo2 h4, #typography #presetDemos #presetDemo2 p {
+    color: #fff;
+    font: 13px / 16px "Helvetica", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003356}}
+  #typography #presetDemos #presetDemo2 h3 {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 0;
+    background-color: #9c9892;
+    color: #fff;
+    letter-spacing: 0.07em;
+    font: 90px / 70px "CaptureitRegular", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003365}}
+  #typography #presetDemos #presetDemo2 .intro {
+    width: 200px;
+    margin: -17px 0 0 276px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003369}}
+  #typography #presetDemos #presetDemo2 h4 {
+    margin-bottom: .3em;
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003373}}
+  #typography #presetDemos #presetDemo2 p a {
+    color: #fff;
+    background-image: url("http://images.apple.com/html5/showcase/typography/images/morearrow_fff.gif"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003377}}
+  #typography #presetDemos #presetDemo2 .headings p {
+    margin: 15px 0 0 15px;
+    font-size: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003382}}
+#typography #presetDemos #presetDemo3 {
+  background: white -webkit-gradient(radial, 50% 50%, 100, 50% 50%, 300, from(white), to(#e5e5e5));
+  background: white -moz-radial-gradient(white, #e5e5e5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003385}}
+  #typography #presetDemos #presetDemo3 h2, #typography #presetDemos #presetDemo3 h3 {
+    margin: 0;
+    text-align: center;
+    color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003390}}
+  #typography #presetDemos #presetDemo3 h2 {
+    margin-left: -38px;
+    padding-top: 24px;
+    color: transparent;
+    letter-spacing: -0.1em;
+    font: 424px / 305px "20dbRegular", Arial, sans-serif;
+    background: white url("http://images.apple.com/html5/showcase/typography/images/fashion-bg.jpg") no-repeat 38px 0;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003401}}
+  #typography #presetDemos #presetDemo3 h3 {
+    margin-top: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font: 26px 'RalewayThin', Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003406}}
+    #typography #presetDemos #presetDemo3 h3 strong {
+      font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003409}}
+    #typography #presetDemos #presetDemo3 h3 em {
+      font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003415}}
+#typography .windows #presetDemos #presetDemo3 h3 {
+  color: #ffd163;
+  letter-spacing: 0.4em;
+  font: 21px 'PTSansRegular', Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003419}}
+  #typography .windows #presetDemos #presetDemo3 h3 em {
+    color: #c27200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003422}}
+  #typography .windows #presetDemos #presetDemo3 h3 strong {
+    color: #993300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003426}}
+#typography .chunkfive {
+  font: 100px / 110px "ChunkFiveRegular", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003429}}
+#typography .calligraphy {
+  font: 100px / 110px "CalligraphyFLFRegular", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003432}}
+#typography .goudy {
+  font: 100px / 110px "GoudyBookletter1911Regular", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003435}}
+#typography .pincoyablack {
+  font: 100px / 110px "PincoyablackBlack", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003438}}
+#typography .pusab {
+  font: 100px / 110px "PusabRegular", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003441}}
+#typography .quicksanddash {
+  font: 100px / 110px "QuicksandDash", Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003444}}
+#typography #force-fonts {
+  visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003447}}
+#typography .shadow {
+  text-shadow: 0.05em 0.05em 0.1em #4a5532; }
+
+/* DEMO SHARED */
+/* DEMO 1 - DESIGN */
+/* DEMO 2 - SKATE */
+/* DEMO 3 - FASHION */
+@media only screen and (max-device-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003462}}
+  #typography #presetDemos #presetDemo3 h2 {
+    padding-top: 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/typography\.scss}line{font-family:\00003465}}
+  #typography #presetDemos #presetDemo3 h3 {
+    margin-top: 0; } }
+/* FONT DECLARATIONS */
+@font-face {
+  font-family: 'ChunkFiveRegular';
+  src: url("../fonts/chunkfive/Chunkfive.eot");
+  src: local("☺"), url("../fonts/chunkfive/Chunkfive.woff") format("woff"), url("../fonts/chunkfive/Chunkfive.ttf") format("truetype"), url("../fonts/chunkfive/Chunkfive.svg#ChunkFive") format("svg"); }
+
+@font-face {
+  font-family: 'PusabRegular';
+  src: url("../fonts/pusab/PUSAB___.eot");
+  src: local("☺"), url("../fonts/pusab/PUSAB___.woff") format("woff"), url("../fonts/pusab/PUSAB___.ttf") format("truetype"), url("../fonts/pusab/PUSAB___.svg#Pusab") format("svg"); }
+
+@font-face {
+  font-family: 'RalewayThin';
+  src: url("../fonts/raleway/raleway_thin.eot");
+  src: local("☺"), url("../fonts/raleway/raleway_thin.woff") format("woff"), url("../fonts/raleway/raleway_thin.ttf") format("truetype"), url("../fonts/raleway/raleway_thin.svg#Raleway-Thin") format("svg"); }
+
+@font-face {
+  font-family: 'PTSansRegular';
+  src: url("../fonts/pt-sans/PT_Sans.eot");
+  src: local("☺"), url("../fonts/pt-sans/PT_Sans.woff") format("woff"), url("../fonts/pt-sans/PT_Sans.ttf") format("truetype"), url("../fonts/pt-sans/PT_Sans.svg#webfont") format("svg"); }
+
+@font-face {
+  font-family: 'PincoyablackBlack';
+  src: url("../fonts/pincoyablack/pincoyablack.eot");
+  src: local("☺"), url("../fonts/pincoyablack/pincoyablack.woff") format("woff"), url("../fonts/pincoyablack/pincoyablack.ttf") format("truetype"), url("../fonts/pincoyablack/pincoyablack.svg#Pincoyablack-Black") format("svg"); }
+
+@font-face {
+  font-family: 'LeagueGothicRegular';
+  src: url("../fonts/league-gothic/League_Gothic.eot");
+  src: local("☺"), url("../fonts/league-gothic/League_Gothic.woff") format("woff"), url("../fonts/league-gothic/League_Gothic.ttf") format("truetype"), url("../fonts/league-gothic/League_Gothic.svg#LeagueGothic") format("svg"); }
+
+@font-face {
+  font-family: '20dbRegular';
+  src: url("../fonts/20-db/20db.eot");
+  src: local("☺"), url("../fonts/20-db/20db.woff") format("woff"), url("../fonts/20-db/20db.ttf") format("truetype"), url("../fonts/20-db/20db.svg#20db") format("svg"); }
+
+@font-face {
+  font-family: 'CalligraphyFLFRegular';
+  src: url("../fonts/calligraphy-flf/CalligraphyFLF.eot");
+  src: local("☺"), url("../fonts/calligraphy-flf/CalligraphyFLF.woff") format("woff"), url("../fonts/calligraphy-flf/CalligraphyFLF.ttf") format("truetype"), url("../fonts/calligraphy-flf/calligraphyflf.svg#CalligraphyFLF") format("svg"); }
+
+@font-face {
+  font-family: 'QuicksandDash';
+  src: url("../fonts/quicksand/Quicksand_Dash.eot");
+  src: local("☺"), url("../fonts/quicksand/Quicksand_Dash.woff") format("woff"), url("../fonts/quicksand/Quicksand_Dash.ttf") format("truetype"), url("../fonts/quicksand/Quicksand_Dash.svg#QuicksandDash-Regular") format("svg"); }
+
+@font-face {
+  font-family: 'CaptureitRegular';
+  src: local("☺"), url("../fonts/capture-it/capture_it.woff") format("woff"), url("../fonts/capture-it/Capture_it.ttf") format("truetype"), url("../fonts/capture-it/capture_it.svg#Captureit") format("svg"); }
+
+@font-face {
+  font-family: 'GoudyBookletter1911Regular';
+  src: url("../fonts/goudy-bookletter-1911/goudy_bookletter_1911.eot");
+  src: local("☺"), url("../fonts/goudy-bookletter-1911/goudy_bookletter_1911.woff") format("woff"), url("../fonts/goudy-bookletter-1911/goudy_bookletter_1911.ttf") format("truetype"), url("../fonts/goudy-bookletter-1911/goudy_bookletter_1911.svg#GoudyBookletter1911") format("svg"); }
+
+/* FONTS */
+/* TEXT STYLES */

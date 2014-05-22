@@ -1,0 +1,12 @@
+#
+
+setup do
+  run 'npm install'
+  run 'bundle install'
+end
+
+run 'rm -r _build'
+
+tab 'compass watch'
+
+tab 'recess ./_build/main000.css --compile --compress --watch'

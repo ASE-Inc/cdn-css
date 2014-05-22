@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'AllerBold';
+  src: url("fonts/aller_bd-webfont.eot");
+  src: url("fonts/aller_bd-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/aller_bd-webfont.woff") format("woff"), url("fonts/aller_bd-webfont.ttf") format("truetype"), url("fonts/aller_bd-webfont.svg#AllerBold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/aller_bd-webfont\.scss}line{font-family:\0000312}}
+.font-AllerBold {
+  font-family: 'AllerBold'; }

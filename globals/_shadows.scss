@@ -1,0 +1,41 @@
+@import "base";
+
+.topImgShadow {
+  background-image: url("#{$cdn_img}img/shadow/msww/topShadow.png");
+  background-position: top;
+  background-repeat: repeat-x;
+  padding-top: 11px;
+  margin-top: -11px;
+}
+
+.bottomImgShadow {
+  background-image: url("#{$cdn_img}img/shadow/msww/bottomShadow.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  padding-bottom: 11px;
+  margin-bottom: -11px;
+}
+
+.leftImgShadow {
+  background-image: url("#{$cdn_img}img/shadow/msww/leftShadow.png");
+  background-position: left;
+  background-repeat: repeat-y;
+  padding-left: 11px;
+  margin-left: -11px;
+}
+
+.rightImgShadow {
+  background-image: url("#{$cdn_img}img/shadow/msww/rightShadow.png");
+  background-position: right;
+  background-repeat: repeat-y;
+  padding-right: 11px;
+  margin-right: -11px;
+}
+
+.shadow {
+  @include box-shadow(0 1px 3px rgba(0,0,0,0.3) inset,0 1px 0 rgba(0,0,0,0.2),0 0 21px rgba(0,0,0,1));
+}
+
+.shadow2 {
+  @include box-shadow(0 0 300px 15px #0C0F12);
+}

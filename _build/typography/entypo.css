@@ -1,0 +1,663 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "entypo";
+  src: url(https://dqegdwgdd0yjs.cloudfront.net/assets/entypo-d23456f48091230e5c9c3395b463f726.eot);
+  src: url(https://dqegdwgdd0yjs.cloudfront.net/assets/entypo.eot?#iefix) format("embedded-opentype"), url(https://dqegdwgdd0yjs.cloudfront.net/assets/entypo-c0464d92128eac143e739d836873c4b0.woff) format("woff"), url(https://dqegdwgdd0yjs.cloudfront.net/assets/entypo-a6a2dacd9b69a17e1506c8b50ed70829.ttf) format("truetype"), url(https://dqegdwgdd0yjs.cloudfront.net/assets/entypo.svg#entypo) format("svg"), url(https://dqegdwgdd0yjs.cloudfront.net/assets/entypo.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\000038}}
+.entypo-music:before {
+  content: "♪"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\000039}}
+.entypo-music-alt:before {
+  content: "🎵"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000310}}
+.entypo-search:before {
+  content: "🔍"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000311}}
+.entypo-search-alt:before {
+  content: "🔎"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000312}}
+.entypo-mail:before {
+  content: "✉"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000313}}
+.entypo-heart:before {
+  content: "♥"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000314}}
+.entypo-heart-empty:before {
+  content: "♡"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000315}}
+.entypo-star:before {
+  content: "★"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000316}}
+.entypo-star-empty:before {
+  content: "☆"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000317}}
+.entypo-user:before, .app-nav .collaborators a:before {
+  content: "👤"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000318}}
+.entypo-users:before {
+  content: "👥"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000319}}
+.entypo-user-add:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000320}}
+.entypo-video:before {
+  content: "🎬"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000321}}
+.entypo-picture:before {
+  content: "🌄"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000322}}
+.entypo-camera:before {
+  content: "📷"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000323}}
+.entypo-th:before {
+  content: "⚏"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000324}}
+.entypo-th-list:before {
+  content: "☰"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000325}}
+.entypo-ok:before {
+  content: "✓"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000326}}
+.entypo-cancel:before {
+  content: "✕"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000327}}
+.entypo-cancel-circle:before {
+  content: "✖"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000328}}
+.entypo-plus:before {
+  content: "+"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000329}}
+.entypo-plus-circle:before, ul.history li.add-on:before, ul.history li.attach:before, ul.history li.detach:before, ul.history li.attached:before, ul.history li.detached:before {
+  content: "➕"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000330}}
+.entypo-minus:before {
+  content: "-"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000331}}
+.entypo-minus-circle:before {
+  content: "➖"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000332}}
+.entypo-help:before {
+  content: "❓"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000333}}
+.entypo-help-circle:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000334}}
+.entypo-info:before {
+  content: "ℹ"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000335}}
+.entypo-info-circle:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000336}}
+.entypo-back:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000337}}
+.entypo-back-alt:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000338}}
+.entypo-home:before {
+  content: "⌂"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000339}}
+.entypo-link:before {
+  content: "🔗"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000340}}
+.entypo-attach:before {
+  content: "📎"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000341}}
+.entypo-lock:before {
+  content: "🔒"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000342}}
+.entypo-lock-open:before {
+  content: "🔓"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000343}}
+.entypo-eye:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000344}}
+.entypo-tag:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000345}}
+.entypo-bookmark:before {
+  content: "🔖"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000346}}
+.entypo-flag:before {
+  content: "⚑"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000347}}
+.entypo-thumbs-up:before {
+  content: "👍"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000348}}
+.entypo-download:before {
+  content: "📥"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000349}}
+.entypo-upload:before {
+  content: "📤"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000350}}
+.entypo-upload-cloud:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000351}}
+.entypo-reply:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000352}}
+.entypo-reply-all:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000353}}
+.entypo-forward:before {
+  content: "➦"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000354}}
+.entypo-quote-right:before {
+  content: "❞"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000355}}
+.entypo-code:before, ul.history li.deploy:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000356}}
+.entypo-export:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000357}}
+.entypo-pencil:before {
+  content: "✎"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000358}}
+.entypo-feather:before {
+  content: "✒"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000359}}
+.entypo-print:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000360}}
+.entypo-retweet:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000361}}
+.entypo-keyboard:before {
+  content: "⌨"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000362}}
+.entypo-comment:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000363}}
+.entypo-chat:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000364}}
+.entypo-bell:before {
+  content: "🔔"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000365}}
+.entypo-attention:before {
+  content: "⚠"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000366}}
+.entypo-vcard:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000367}}
+.entypo-address:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000368}}
+.entypo-location:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000369}}
+.entypo-map:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000370}}
+.entypo-direction:before {
+  content: "➢"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000371}}
+.entypo-compass:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000372}}
+.entypo-trash:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000373}}
+.entypo-doc:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000374}}
+.entypo-docs:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000375}}
+.entypo-docs-landscape:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000376}}
+.entypo-doc-text:before {
+  content: "📄"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000377}}
+.entypo-book-open:before {
+  content: "📖"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000378}}
+.entypo-folder:before {
+  content: "📁"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000379}}
+.entypo-archive:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000380}}
+.entypo-rss:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000381}}
+.entypo-phone:before {
+  content: "📞"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000382}}
+.entypo-cog:before, .app-nav .settings a:before, ul.history li.config:before {
+  content: "⚙"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000383}}
+.entypo-share:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000384}}
+.entypo-basket:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000385}}
+.entypo-calendar:before {
+  content: "📅"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000386}}
+.entypo-mic:before {
+  content: "🎤"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000387}}
+.entypo-volume-off:before {
+  content: "🔇"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000388}}
+.entypo-volume-up:before {
+  content: "🔊"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000389}}
+.entypo-volume:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000390}}
+.entypo-clock:before {
+  content: "🕔"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000391}}
+.entypo-hourglass:before {
+  content: "⏳"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000392}}
+.entypo-lamp:before {
+  content: "💡"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000393}}
+.entypo-light-down:before {
+  content: "🔅"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000394}}
+.entypo-light-up:before {
+  content: "🔆"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000395}}
+.entypo-block:before {
+  content: "🚫"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000396}}
+.entypo-resize-full:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000397}}
+.entypo-resize-small:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000398}}
+.entypo-popup:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\0000399}}
+.entypo-publish:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003100}}
+.entypo-window:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003101}}
+.entypo-arrow-combo:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003102}}
+.entypo-down-circle2:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003103}}
+.entypo-left-circle2:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003104}}
+.entypo-right-circle2:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003105}}
+.entypo-up-circle2:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003106}}
+.entypo-down-open:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003107}}
+.entypo-left-open:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003108}}
+.entypo-right-open:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003109}}
+.entypo-up-open:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003110}}
+.entypo-down-thin:before {
+  content: "⬇"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003111}}
+.entypo-left-thin:before {
+  content: "⬅"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003112}}
+.entypo-right-thin:before {
+  content: "➡"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003113}}
+.entypo-up-thin:before {
+  content: "⬆"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003114}}
+.entypo-down-dir:before {
+  content: "▾"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003115}}
+.entypo-left-dir:before {
+  content: "◂"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003116}}
+.entypo-right-dir:before {
+  content: "▸"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003117}}
+.entypo-up-dir:before {
+  content: "▴"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003118}}
+.entypo-down-bold:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003119}}
+.entypo-left-bold:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003120}}
+.entypo-right-bold:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003121}}
+.entypo-up-bold:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003122}}
+.entypo-down:before {
+  content: "↓"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003123}}
+.entypo-left:before {
+  content: "←"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003124}}
+.entypo-right:before {
+  content: "→"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003125}}
+.entypo-up:before {
+  content: "↑"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003126}}
+.entypo-ccw:before {
+  content: "⟲"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003127}}
+.entypo-cw:before {
+  content: "⟳"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003128}}
+.entypo-level-down:before {
+  content: "↳"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003129}}
+.entypo-shuffle:before {
+  content: "🔀"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003130}}
+.entypo-play:before {
+  content: "▶"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003131}}
+.entypo-stop:before {
+  content: "▪"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003132}}
+.entypo-pause:before {
+  content: "⎉"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003133}}
+.entypo-record:before {
+  content: "⚫"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003134}}
+.entypo-to-end:before {
+  content: "⏭"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003135}}
+.entypo-to-start:before {
+  content: "⏮"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003136}}
+.entypo-fast-fw:before {
+  content: "⏩"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003137}}
+.entypo-fast-bw:before {
+  content: "⏪"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003138}}
+.entypo-progress-0:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003139}}
+.entypo-progress-1:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003140}}
+.entypo-progress-2:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003141}}
+.entypo-progress-3:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003142}}
+.entypo-target:before {
+  content: "🎯"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003143}}
+.entypo-palette:before {
+  content: "🎨"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003144}}
+.entypo-list-add:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003145}}
+.entypo-signal:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003146}}
+.entypo-top-list:before {
+  content: "🏆"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003147}}
+.entypo-battery:before {
+  content: "🔋"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003148}}
+.entypo-back-in-time:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003149}}
+.entypo-monitor:before {
+  content: "💻"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003150}}
+.entypo-mobile:before {
+  content: "📱"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003151}}
+.entypo-net:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003152}}
+.entypo-cd:before {
+  content: "💿"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003153}}
+.entypo-inbox:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003154}}
+.entypo-install:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003155}}
+.entypo-globe:before {
+  content: "𝌍"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003156}}
+.entypo-cloud:before {
+  content: "☁"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003157}}
+.entypo-flash:before {
+  content: "⚡"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003158}}
+.entypo-moon:before {
+  content: "☽"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003159}}
+.entypo-flight:before {
+  content: "✈"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003160}}
+.entypo-leaf:before {
+  content: "🍂"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003161}}
+.entypo-lifebuoy:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003162}}
+.entypo-mouse:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003163}}
+.entypo-bag:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003164}}
+.entypo-dot:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003165}}
+.entypo-dot-2:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003166}}
+.entypo-dot-3:before, ul.history li:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003167}}
+.entypo-google-circles:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003168}}
+.entypo-cc:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003169}}
+.entypo-logo-entypo:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003170}}
+.entypo-flag-sw:before {
+  content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/abhishekmunie\/GitSpace\/GitHub\/abhishekmunie\/css\.ahishekmunie\.com\/typography\/entypo\.scss}line{font-family:\00003171}}
+.entypo-logo-db:before {
+  content: ""; }

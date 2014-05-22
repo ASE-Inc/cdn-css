@@ -1,0 +1,6 @@
+{
+  "includePath": ["build"]
+, "noIDs": false
+, "noJSPrefix": false
+, "noUniversalSelectors": false
+}
