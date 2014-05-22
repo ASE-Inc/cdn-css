@@ -1,8 +1,8 @@
 Encoding.default_external = "utf-8"
 
-if environment.nil?
-  environment = :development
-end
+# if environment.nil?
+#   environment = :development
+# end
 
 # Require any additional compass plugins here.
 require 'bootstrap-sass'
